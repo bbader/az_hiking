@@ -16,7 +16,7 @@ var trailsSchema = new mongoose.Schema({
     facilities: String,
     fees: String,
     description: String,
-    directions: Sting,
+    directions: String,
     resources: String,
     images: Array
 });

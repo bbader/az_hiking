@@ -1,0 +1,62 @@
+
+<% include partials/header %>
+
+   <div >
+        <h1 style="text-align: center">Add a New Trail</h1>
+        <div style="width: 30%; margin: 25px auto;">
+            <form action="/trails" method="POST">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="trail" placeholder="Trail Name">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="trailhead" placeholder="Trail Head">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="difficulty" placeholder="Difficulty">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="distance" placeholder="Distance">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="approxTime" placeholder="Approx. Time">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="elevationGain" placeholder="Elev. Gain">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="bestTime" placeholder="Best Time">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="pets" placeholder="Pets">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="kidFriendly" placeholder="Kid Friendly">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="description" placeholder="Description">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="facilities" placeholder="Facilities">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="fees" placeholder="Fees">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="directions" placeholder="Directions">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="resources" placeholder="Resources">
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="text" name="image" placeholder="image url">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                </div>
+            </form>
+            <a href="/">Go Back</a>
+        </div>
+    </div>
+
+<% include partials/footer %>
